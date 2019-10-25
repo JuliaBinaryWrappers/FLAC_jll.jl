@@ -1,0 +1,113 @@
+[[FLAC]]
+arch = "x86_64"
+git-tree-sha1 = "2fcad5b1fc2bf19aa07117e26050501c24ddb1fa"
+os = "macos"
+
+    [[FLAC.download]]
+    sha256 = "ea5414b9893d18d9c5d01f5c6089723c025a0e97ad1624c7fcc12cd201f24a99"
+    url = "https://github.com/JuliaBinaryWrappers/FLAC_jll.jl/releases/download/FLAC-v1.3.3+0/FLAC.v1.3.3.x86_64-apple-darwin14.tar.gz"
+[[FLAC]]
+arch = "i686"
+git-tree-sha1 = "ea545e4741095aeda4c464fc68fcd3e1ff62e0ec"
+libc = "glibc"
+os = "linux"
+
+    [[FLAC.download]]
+    sha256 = "46258d1cba12797e2e9a2718061a65b9844449a4ed2f2fe69f078a06d1168699"
+    url = "https://github.com/JuliaBinaryWrappers/FLAC_jll.jl/releases/download/FLAC-v1.3.3+0/FLAC.v1.3.3.i686-linux-gnu.tar.gz"
+[[FLAC]]
+arch = "x86_64"
+git-tree-sha1 = "1c9cf4ed86783cacf57913f0facb96c7053a6fb8"
+os = "freebsd"
+
+    [[FLAC.download]]
+    sha256 = "0776a1e53489e3c75fbb7183852b49c9230a34b200186b37b3d10139f35de265"
+    url = "https://github.com/JuliaBinaryWrappers/FLAC_jll.jl/releases/download/FLAC-v1.3.3+0/FLAC.v1.3.3.x86_64-unknown-freebsd11.1.tar.gz"
+[[FLAC]]
+arch = "powerpc64le"
+git-tree-sha1 = "ca26d8513c16c4322cd2b3a83a118c4ae27affe6"
+libc = "glibc"
+os = "linux"
+
+    [[FLAC.download]]
+    sha256 = "32df012da6e01779ee539313ed963ca79dd8b75569a29be7f266e74add9ebb3f"
+    url = "https://github.com/JuliaBinaryWrappers/FLAC_jll.jl/releases/download/FLAC-v1.3.3+0/FLAC.v1.3.3.powerpc64le-linux-gnu.tar.gz"
+[[FLAC]]
+arch = "x86_64"
+git-tree-sha1 = "0d8b700c1b343a9ff1b2e99cdf787074d902d55c"
+libc = "musl"
+os = "linux"
+
+    [[FLAC.download]]
+    sha256 = "d6fa87a7cb5fd2b47cebf2bd3136aa6f9e27a8bce2b6feccba59a83535b134c1"
+    url = "https://github.com/JuliaBinaryWrappers/FLAC_jll.jl/releases/download/FLAC-v1.3.3+0/FLAC.v1.3.3.x86_64-linux-musl.tar.gz"
+[[FLAC]]
+arch = "x86_64"
+git-tree-sha1 = "6d6d176f94239674736aaf7bf4113cae5e2552e7"
+libc = "glibc"
+os = "linux"
+
+    [[FLAC.download]]
+    sha256 = "5b832c128477a2a05a2cf3f480ae45771a8b20657c822d6aed0c5c2300b0e3ce"
+    url = "https://github.com/JuliaBinaryWrappers/FLAC_jll.jl/releases/download/FLAC-v1.3.3+0/FLAC.v1.3.3.x86_64-linux-gnu.tar.gz"
+[[FLAC]]
+arch = "x86_64"
+git-tree-sha1 = "c8ce1575e45d908338cb29418aa7fff3d8f40182"
+os = "windows"
+
+    [[FLAC.download]]
+    sha256 = "ecbf2c025a301a2011aa7a279c8f7950f5b1d72ec82ead0cd0776b95c74b843e"
+    url = "https://github.com/JuliaBinaryWrappers/FLAC_jll.jl/releases/download/FLAC-v1.3.3+0/FLAC.v1.3.3.x86_64-w64-mingw32.tar.gz"
+[[FLAC]]
+arch = "aarch64"
+git-tree-sha1 = "a9df92af87acd1482057c67b98832bb8581543dc"
+libc = "musl"
+os = "linux"
+
+    [[FLAC.download]]
+    sha256 = "3e7725f478266ed84c676e907088d639ce3839b01f858a7347a509bd59fc2876"
+    url = "https://github.com/JuliaBinaryWrappers/FLAC_jll.jl/releases/download/FLAC-v1.3.3+0/FLAC.v1.3.3.aarch64-linux-musl.tar.gz"
+[[FLAC]]
+arch = "armv7l"
+git-tree-sha1 = "8ff8b1b5b305df2916085c47ee8fba47047ede28"
+libc = "glibc"
+os = "linux"
+
+    [[FLAC.download]]
+    sha256 = "6a3f352fd4c0ef3893081c00eef7e41a8081c1c81c263d28e1b9c196f89ac8db"
+    url = "https://github.com/JuliaBinaryWrappers/FLAC_jll.jl/releases/download/FLAC-v1.3.3+0/FLAC.v1.3.3.arm-linux-gnueabihf.tar.gz"
+[[FLAC]]
+arch = "i686"
+git-tree-sha1 = "d4f0cd61eb7d3e57a0b6cf7a347184038fab5dcc"
+libc = "musl"
+os = "linux"
+
+    [[FLAC.download]]
+    sha256 = "420f6d3490bc7c7790fb56bc5cb066700cf9c2bb4a1d4e53f88715690ffaaaa3"
+    url = "https://github.com/JuliaBinaryWrappers/FLAC_jll.jl/releases/download/FLAC-v1.3.3+0/FLAC.v1.3.3.i686-linux-musl.tar.gz"
+[[FLAC]]
+arch = "armv7l"
+git-tree-sha1 = "9dae3f0a9895e145b787f7259069f2a48b26be5a"
+libc = "musl"
+os = "linux"
+
+    [[FLAC.download]]
+    sha256 = "0ca33df9d1487cff79464c5bef7afd1e5011ea28f2da4a5b622e696756bb81f1"
+    url = "https://github.com/JuliaBinaryWrappers/FLAC_jll.jl/releases/download/FLAC-v1.3.3+0/FLAC.v1.3.3.arm-linux-musleabihf.tar.gz"
+[[FLAC]]
+arch = "aarch64"
+git-tree-sha1 = "a421cdb7bf7672343c4faeb95e8a9305a762bc95"
+libc = "glibc"
+os = "linux"
+
+    [[FLAC.download]]
+    sha256 = "6cf9e7c5d9349cc55b1bd23289536b57bc736dfe12d6756dbf32ac003be22096"
+    url = "https://github.com/JuliaBinaryWrappers/FLAC_jll.jl/releases/download/FLAC-v1.3.3+0/FLAC.v1.3.3.aarch64-linux-gnu.tar.gz"
+[[FLAC]]
+arch = "i686"
+git-tree-sha1 = "fcdf306d6fdccc4fa0305fc74948bc1d47567d2a"
+os = "windows"
+
+    [[FLAC.download]]
+    sha256 = "7564a4a5ff5d66f1aef1086eae84f6212d39597f00438cdf1b262739d423c5fc"
+    url = "https://github.com/JuliaBinaryWrappers/FLAC_jll.jl/releases/download/FLAC-v1.3.3+0/FLAC.v1.3.3.i686-w64-mingw32.tar.gz"
