@@ -4,21 +4,21 @@ export flac, libflac, libflacpp, metaflac
 using Ogg_jll
 using CompilerSupportLibraries_jll
 JLLWrappers.@generate_wrapper_header("FLAC")
-JLLWrappers.@declare_library_product(libflac, "libFLAC-8.dll")
-JLLWrappers.@declare_library_product(libflacpp, "libFLAC++-6.dll")
+JLLWrappers.@declare_library_product(libflac, "libFLAC-12.dll")
+JLLWrappers.@declare_library_product(libflacpp, "libFLAC++-10.dll")
 JLLWrappers.@declare_executable_product(flac)
 JLLWrappers.@declare_executable_product(metaflac)
 function __init__()
     JLLWrappers.@generate_init_header(Ogg_jll, CompilerSupportLibraries_jll)
     JLLWrappers.@init_library_product(
         libflac,
-        "bin\\libFLAC-8.dll",
+        "bin\\libFLAC-12.dll",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libflacpp,
-        "bin\\libFLAC++-6.dll",
+        "bin\\libFLAC++-10.dll",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
